@@ -2,7 +2,7 @@ import FeatureBox from "./FeatureBox";
 
 const FeatureBoxes = () => {
   return (
-    <section className="container mx-auto my-16">
+    <section className="container mx-auto my-24 md:my-32">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <FeatureBox title="Efficiency Boost" icon="/placeholder--36x36.jpg">
           Maximize productivity with streamlined processes.
