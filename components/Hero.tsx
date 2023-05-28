@@ -13,10 +13,11 @@ const Hero = () => {
             Solutions
           </h1>
           <p className="text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            sint ipsa velit qui vero dolore labore unde cum. Asperiores,
-            exercitationem cum! Voluptas sequi exercitationem amet dignissimos
-            architecto magnam, excepturi corrupti saepe iusto expedita ullam.
+            Empower Your Business with DataMastery Solutions. Unleash the full
+            potential of your data through advanced analytics, state-of-the-art
+            technology, and seamless task management. Drive informed
+            decision-making and achieve unrivaled success in the digital era
+            with our expertise.
           </p>
           <div className="flex flex-wrap justify-start gap-4">
             <Button type="primary">Start Your Free Trial Today</Button>
@@ -29,7 +30,7 @@ const Hero = () => {
             alt="Placeholder"
             width={570}
             height={388}
-            className=" mx-auto xl:ml-auto xl:mr-0"
+            className="mx-auto xl:mr-0"
           />
         </div>
       </div>
