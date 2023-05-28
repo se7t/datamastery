@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap justify-start gap-4">
             <Button type="primary">Start Your Free Trial Today</Button>
-            <Button type="tertiary">Request A Demo</Button>
+            <Button type="secondary">Request A Demo</Button>
           </div>
         </div>
         <div>
