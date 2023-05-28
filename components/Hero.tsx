@@ -1,18 +1,17 @@
 import Button from "@/components/Button";
 import Image from "next/image";
-import FeatureBoxes from "./FeatureBoxes";
 
 const Hero = () => {
   return (
     <section className="container mx-auto my-16">
       <div className="mb-16 flex flex-col gap-16 xl:grid xl:auto-cols-fr xl:grid-flow-col xl:items-stretch">
         <div className="flex flex-col justify-center gap-12">
-          <h1 className="text-5xl font-bold leading-tight">
+          <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
             DataMastery
             <br />
             Solutions
           </h1>
-          <p className="text-lg">
+          <p className="text-lg font-light">
             Empower Your Business with DataMastery Solutions. Unleash the full
             potential of your data through advanced analytics, state-of-the-art
             technology, and seamless task management. Drive informed
@@ -34,7 +33,6 @@ const Hero = () => {
           />
         </div>
       </div>
-      <FeatureBoxes />
     </section>
   );
 };
