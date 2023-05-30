@@ -4,6 +4,7 @@ import Intro from "@/components/Intro";
 import Header from "@/components/Header";
 import FunctionalityList from "@/components/FunctionalityList";
 import Integrations from "@/components/Integrations";
+import TestimonialsSections from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Intro />
       <FunctionalityList />
       <Integrations />
+      <TestimonialsSections />
     </main>
   );
 }
