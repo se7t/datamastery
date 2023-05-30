@@ -2,7 +2,7 @@ import Functionality from "./Functionality";
 
 const FunctionalityList = () => {
   return (
-    <section className="container mx-auto my-24 flex flex-col gap-24 md:my-32 xl:gap-32">
+    <section className="container mx-auto my-24 flex flex-col gap-24 px-8 md:my-32 lg:px-16 xl:gap-32">
       <Functionality
         direction="normal"
         category="Data Haromonization Solutions"

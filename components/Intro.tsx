@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <section className="container mx-auto my-24 w-full max-w-full md:my-32 md:w-2/3">
+    <section className="container mx-auto my-24 w-full max-w-full px-8 md:my-32 md:w-2/3 lg:px-16">
       <h2 className="mb-4 text-center text-3xl font-bold leading-tight">
         Unlock Your Business Potential with DataMastery
       </h2>

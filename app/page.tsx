@@ -3,15 +3,17 @@ import FeatureBoxes from "@/components/FeatureBoxes";
 import Intro from "@/components/Intro";
 import Header from "@/components/Header";
 import FunctionalityList from "@/components/FunctionalityList";
+import Integrations from "@/components/Integrations";
 
 export default function Home() {
   return (
-    <main className="px-8 lg:px-16">
+    <main>
       <Header />
       <Hero />
       <FeatureBoxes />
       <Intro />
       <FunctionalityList />
+      <Integrations />
     </main>
   );
 }
