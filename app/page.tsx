@@ -6,6 +6,7 @@ import FunctionalityList from "@/components/FunctionalityList";
 import Integrations from "@/components/Integrations";
 import TestimonialsSections from "@/components/TestimonialsSection";
 import StatisticsList from "@/components/StatisticsList";
+import CallToActionSection from "@/components/CallToActionSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Integrations />
       <TestimonialsSections />
       <StatisticsList />
+      <CallToActionSection />
     </main>
   );
 }
