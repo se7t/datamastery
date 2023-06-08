@@ -12,7 +12,7 @@ const CallToActionSection = () => {
           extraordinary success. Discover the cutting-edge solutions of
           DataMastery and embrace a future where data-driven insights,
           streamlined processes, and seamless integrations propel you ahead of
-          the competition.Sign up for our free trial and unlock the power of
+          the competition. Sign up for our free trial and unlock the power of
           data-driven growth and streamlined operations.
         </p>
         <div className="mx-auto mt-8 block w-fit">
