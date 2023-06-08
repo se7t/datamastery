@@ -7,9 +7,9 @@ const Integrations = () => {
       <div className="container mx-auto px-8 lg:px-16">
         <div className="mb-16 flex flex-col-reverse gap-16 xl:grid xl:auto-cols-fr xl:grid-flow-col xl:items-stretch">
           <div className="flex flex-col justify-center gap-12">
-            <h1 className="text-2xl font-bold leading-tight sm:text-3xl">
+            <h2 className="text-3xl font-bold leading-tight sm:text-3xl">
               Powerful Integration Ecosystem for Enhanced Efficiency
-            </h1>
+            </h2>
             <p className="text-lg font-light">
               Discover a seamless integration ecosystem that amplifies your
               efficiency and productivity. Our versatile platform effortlessly
