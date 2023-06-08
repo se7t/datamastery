@@ -6,8 +6,7 @@ interface ButtonProps {
 const Button = (props: ButtonProps) => {
   return (
     <a
-      href="javascript:void(0)"
-      className={`text-md block h-fit w-full rounded-md border-2 px-7 py-2 text-center text-lg font-medium transition-colors sm:w-fit ${
+      className={`text-md block h-fit w-full cursor-pointer rounded-md border-2 px-7 py-2 text-center text-lg font-medium transition-colors sm:w-fit ${
         props.type === "primary"
           ? "border-blue-600 bg-blue-600 text-white  hover:border-blue-500 hover:bg-blue-500"
           : props.type === "secondary"
