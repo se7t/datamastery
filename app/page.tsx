@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import FunctionalityList from "@/components/FunctionalityList";
 import Integrations from "@/components/Integrations";
 import TestimonialsSections from "@/components/TestimonialsSection";
+import StatisticsList from "@/components/StatisticsList";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <FunctionalityList />
       <Integrations />
       <TestimonialsSections />
+      <StatisticsList />
     </main>
   );
 }
