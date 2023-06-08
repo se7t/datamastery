@@ -8,6 +8,7 @@ import TestimonialsSections from "@/components/TestimonialsSection";
 import StatisticsList from "@/components/StatisticsList";
 import CallToActionSection from "@/components/CallToActionSection";
 import ResourcesSection from "@/components/ResourcesSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <StatisticsList />
       <CallToActionSection />
       <ResourcesSection />
+      <Footer />
     </main>
   );
 }
