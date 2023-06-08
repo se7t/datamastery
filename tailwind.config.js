@@ -1,3 +1,5 @@
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,4 +8,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+  theme: {
+    extend: {
+      fontFamily: {
+        atlalabs: ["var(--font-saira)", ...fontFamily.serif],
+      },
+      colors: {
+        "atlalabs-primary": "#74A7FF",
+        "atlalabs-secondary": "#FFCC74",
+      },
+    },
+  },
 };
