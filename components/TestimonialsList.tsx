@@ -6,7 +6,7 @@ const TestimonialList = () => {
       <Testimonial
         company="Stellar Solutions"
         name="Sarah Thompson, CEO"
-        imageUrl="/placeholder--100x100.jpg"
+        imageUrl="/sarah-thompson-stellar-solutions.jpg"
       >
         DataMastery has truly revolutionized our business. With their advanced
         analytics and seamless task management, we've seen a significant boost
@@ -16,7 +16,7 @@ const TestimonialList = () => {
       <Testimonial
         company="Global Ventures"
         name="Samantha Roberts, Sales Director "
-        imageUrl="/placeholder--100x100.jpg"
+        imageUrl="/samantha-roberts-global-ventures.jpg"
       >
         Working with DataMastery has been a game-changer for our sales team. The
         insights gained from their advanced analytics have allowed us to
@@ -27,7 +27,7 @@ const TestimonialList = () => {
       <Testimonial
         company="Dynamic Technologies"
         name="David Chen, IT Manager"
-        imageUrl="/placeholder--100x100.jpg"
+        imageUrl="/david-chen-dynamic-technologies.jpg"
       >
         DataMastery's integration capabilities have been invaluable for our
         organization. Their solution seamlessly integrates with our existing
