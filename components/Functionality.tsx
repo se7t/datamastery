@@ -38,7 +38,7 @@ const Functionality = (props: FunctionalityProps) => {
         alt={`${props.title} Placeholder`}
         width={570}
         height={388}
-        className="mx-auto shrink grow-0 basis-1/2"
+        className="mx-auto shrink grow-0 basis-1/2 rounded-2xl shadow-lg"
       />
     </div>
   );

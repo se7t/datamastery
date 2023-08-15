@@ -8,7 +8,7 @@ const FunctionalityList = () => {
         category="Data Haromonization Solutions"
         title="Data Integration"
         callToAction="Unify Your Data Sources"
-        imageUrl="/placeholder--696x480.jpg"
+        imageUrl="/data-integration.jpg"
       >
         Seamlessly integrate and consolidate data from various sources, enabling
         a comprehensive view of your business operations.
@@ -18,7 +18,7 @@ const FunctionalityList = () => {
         category="Insights-driven Decision Support"
         title="Advanced Analytics"
         callToAction="Unlock Insights Today"
-        imageUrl="/placeholder--696x480.jpg"
+        imageUrl="/advanced-analytics.jpg"
       >
         Utilize advanced analytical techniques to extract meaningful insights
         from your data, enabling data-driven decision-making and strategy
@@ -29,7 +29,7 @@ const FunctionalityList = () => {
         category="Efficient Collaboration"
         title="Task Management"
         callToAction="Streamline Your Workflow"
-        imageUrl="/placeholder--696x480.jpg"
+        imageUrl="/task-management.jpg"
       >
         Efficiently manage tasks, assignments, and workflows, ensuring
         streamlined collaboration, improved productivity, and timely project

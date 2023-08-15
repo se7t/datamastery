@@ -23,11 +23,11 @@ const Integrations = () => {
           </div>
           <div>
             <Image
-              src="/placeholder--570x388.jpg"
+              src="/seamless-integration.jpg"
               alt="Placeholder"
               width={570}
               height={388}
-              className="mx-auto xl:mr-0"
+              className="mx-auto xl:mr-0 mix-blend-multiply"
             />
           </div>
         </div>

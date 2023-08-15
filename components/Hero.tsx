@@ -25,11 +25,11 @@ const Hero = () => {
         </div>
         <div>
           <Image
-            src="/placeholder--570x388.jpg"
-            alt="Placeholder"
+            src="/data-mastery-hero.jpg"
+            alt="DataMastery - Effortless Data Management"
             width={570}
             height={388}
-            className="mx-auto xl:mr-0"
+            className="mx-auto xl:mr-0 blobAnimation shadow-xl rounded-2xl"
           />
         </div>
       </div>
