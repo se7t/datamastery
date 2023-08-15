@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 
 interface FeatureBoxProps {
   title: string;
-  icon: string;
+  icon: ReactNode;
   children: any;
 }
 
@@ -15,13 +16,8 @@ const FeatureBox = (props: FeatureBoxProps) => {
       <p className="text-center text-sm text-neutral-600 xl:text-left">
         {props.children}
       </p>
-      <Image
-        src={props.icon}
-        alt={`${props.title} Icon`}
-        width={36}
-        height={36}
-        className="mt-auto"
-      />
+      {/* TODO: Refactor so that the icons are not passed as props */}
+      <span className="mt-auto">{props.icon}</span>
     </div>
   );
 };
