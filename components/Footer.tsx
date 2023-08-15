@@ -63,10 +63,18 @@ const Footer = () => {
           <div>
             <h3 className="mb-5 text-lg font-medium">Blog</h3>
             <div className="flex flex-col gap-5">
-              <BlogItem>
+              <BlogItem
+                featuredImage="/blog-future-of-digital-transformation-in-business.jpg"
+                featuredImageAlt="DataMastery Blog - Webinar: The Future of Digital Transformation in Business"
+              >
                 Webinar: The Future of Digital Transformation in Business
               </BlogItem>
-              <BlogItem>10 Essential Strategies for Business Growth</BlogItem>
+              <BlogItem
+                featuredImage="/blog-essential-strategies-for-business-growth.jpg"
+                featuredImageAlt="DataMastery Blog - 10 Essential Strategies for Business Growth"
+              >
+                10 Essential Strategies for Business Growth
+              </BlogItem>
             </div>
           </div>
         </div>
