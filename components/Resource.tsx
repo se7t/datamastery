@@ -4,16 +4,18 @@ import Tag from "./Tag";
 interface ResourceProps {
   tags: string[];
   children: string;
+  featuredImage: string;
+  featuredImageAlt: string;
 }
 
 const Resource = (props: ResourceProps) => {
   return (
     <div className="flex flex-col justify-start overflow-hidden rounded-lg shadow-lg">
       <Image
-        src="/placeholder--380x180.jpg"
+        src={props.featuredImage}
         width={380}
         height={180}
-        alt="Resource Placeholder"
+        alt={props.featuredImageAlt}
         className="w-full"
       />
       <div className="flex h-full flex-col justify-start gap-2 p-4">
